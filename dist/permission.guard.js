@@ -23,7 +23,7 @@ let PermissionGuard = class PermissionGuard extends passport_1.AuthGuard('jwt') 
         const permissions = this.reflector.get('permissions', context.getHandler());
         const request = context.switchToHttp().getRequest();
         if (!request.headers.authorization) {
-            throw false;
+            return false;
         }
         try {
             const jwt = request.headers.authorization.replace("Bearer ", "");

@@ -1318,7 +1318,7 @@
         "signature": "9b87324cafe291b3956574b83fbd75a46591d92b2c448d0d70ab955bfd57ce69"
       },
       "../src/permission.guard.ts": {
-        "version": "dc2216982511f0ad6a4502b3acf96a4e63ff4cbfbf82d5a6c5d5ca08203d8a11",
+        "version": "6959abe964a81fa299a62ce8b46663c8269d56cbd60fff68cc6669ac1d3ec9b2",
         "signature": "a354915f3c97fc5fba71bd787d9e76b03ab691a61e97c6bd27aa2a5323c97d4a"
       },
       "../src/routes-permission.generator.ts": {
