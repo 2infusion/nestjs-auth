@@ -1,0 +1,1 @@
+{"version":3,"file":"jwt.register.js","sourceRoot":"","sources":["../src/jwt.register.ts"],"names":[],"mappings":";;AAAA,qCAAwC;AACxC,2CAA2C;AAE9B,QAAA,GAAG,GAAG,eAAS,CAAC,QAAQ,CAAC;IAClC,MAAM,EAAE,wBAAY,CAAC,MAAM;IAC3B,WAAW,EAAE,EAAE,SAAS,EAAE,OAAO,EAAE;CACtC,CAAC,CAAC"}
