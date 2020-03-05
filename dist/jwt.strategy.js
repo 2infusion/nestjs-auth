@@ -24,7 +24,7 @@ let JwtStrategy = class JwtStrategy extends passport_1.PassportStrategy(passport
         this.reflector = reflector;
     }
     async validate(payload) {
-        return { userId: payload.sub, username: payload.username };
+        return { id: payload.id, username: payload.username, permissions: payload.permissions };
     }
 };
 JwtStrategy = __decorate([

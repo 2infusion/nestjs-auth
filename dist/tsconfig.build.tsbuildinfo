@@ -1310,8 +1310,8 @@
         "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d"
       },
       "../src/jwt.strategy.ts": {
-        "version": "2b10a31486eb87fa828381423e2bf2bee742f060df066508d9b96a905ad5cc67",
-        "signature": "99b2ddfdfbf2dae44eca513516090e54a43ab24d8d769589153dbdc19e3812b9"
+        "version": "090c4565a79d043eba8f4e5e01c55811d404ec323bf3a1faac2ee7911e692cd9",
+        "signature": "be297463ca0d7af7f18359368a997e475f527d43b8d35a5821fad6e1854486f2"
       },
       "../src/permission.decorator.ts": {
         "version": "397a3e046d77f771b4d3713b873a141da2459558a4a038a48bc17433208ce4d9",
@@ -7230,6 +7230,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/jwt.strategy.ts": [
+        "../node_modules/@nestjs/core/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []

@@ -4,8 +4,9 @@ export declare class JwtStrategy extends JwtStrategy_base {
     private readonly reflector;
     constructor(reflector: Reflector);
     validate(payload: any): Promise<{
-        userId: any;
+        id: any;
         username: any;
+        permissions: any;
     }>;
 }
 export {};
